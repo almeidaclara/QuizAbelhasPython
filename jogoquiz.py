@@ -85,7 +85,7 @@ def jogar():
             questao = random.choice(perguntas_jogo)
             print(questao[0], questao[1], questao[2], questao[3], questao[4], end='')
             resposta = input('Qual a alternativa correta?')
-            if resposta not in 'AaBbCcDd':
+            if resposta not in 'AaBbCc':
                 print('Valor inválido. Serão aceitas apenas a, b ou c como respostas.')
             else:
                 if resposta in questao[5]:
